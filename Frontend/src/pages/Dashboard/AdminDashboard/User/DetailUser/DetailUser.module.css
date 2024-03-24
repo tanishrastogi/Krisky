@@ -1,0 +1,107 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.imagesection {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(33, 43, 54);
+    border-color:rgb(218, 218, 218);
+    border-style: solid;
+    border-radius: 20px;
+}
+.imagecircle {
+    width: 145px;
+    height: 145px;
+    border-color:rgb(218, 218, 218);
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.avatar {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+.status {
+    width: 110px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-transform: unset;
+    font-family: "Public Sans", sans-serif;
+    color: rgb(64, 183, 24);
+    border-radius: 8px;
+    background-color: rgba(96, 255, 48, 0.16);
+    border-width: 0px;
+}
+
+.banbutton {
+    width: 140px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items:center;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-transform: unset;
+    font-family: "Public Sans", sans-serif;
+    color: rgb(183, 29, 24);
+    border-radius: 8px;
+    background-color: rgba(255, 86, 48, 0.16);
+    border-width: 0px;
+}
+.detailsection {
+    width: 500px;
+    height: 450px;
+    color: rgb(33, 43, 54);
+    box-sizing: border-box;
+    border-color:rgb(218, 218, 218);
+    border-style: solid;
+    border-radius: 20px;
+}
+.orderhistory {
+    width: 100%;
+    height: 450px;
+    color: rgb(33, 43, 54);
+    box-sizing: border-box;
+    border-color:rgb(218, 218, 218);
+    border-style: solid;
+    border-radius: 20px;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-left: 24px;
+    font-weight: 700;
+    line-height: 1.555556;
+    font-size: 1.0625rem;
+    font-family: "Public Sans", sans-serif;
+    display: block;
+}
+.subheading {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-left: 64px;
+    font-weight: 500;
+    line-height: 1.555556;
+    font-size: 1.0625rem;
+    font-family: "Public Sans", sans-serif;
+    display: block;
+}

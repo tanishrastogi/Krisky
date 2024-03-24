@@ -1,0 +1,92 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub {
+  background-color: rgb(249, 249, 249);
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin: 20px;
+  padding: 20px;
+}
+
+.containerHeading {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-family: "Noir Pro";
+    margin-top: 20px;
+}
+
+.sectionContainerHeading {
+  font-size: 28px;
+  display: inline;
+  border-bottom: 2px solid #adadad;
+  padding-bottom: 3px;
+}
+
+.inputBox {
+  margin-bottom: 40px;
+}
+
+.inputBox select {
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 1px solid ;
+  margin-top: 5px;
+  background-color: rgb(249, 249, 249);
+  color: #757575;
+}
+
+
+.inputBox Label,
+.GenderHeading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+.RadioDiv {
+  display: grid;
+  padding: 10px 20px;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px 0;
+}
+
+.InputRadio {
+  height: 20px;
+}
+
+
+.RadioDiv Label {
+  color: #757575;
+}
+
+.ButtonDiv {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  color: var(--Primary-Text, #fff);
+  text-align: center;
+  font-family: ProximaNova Medium;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}

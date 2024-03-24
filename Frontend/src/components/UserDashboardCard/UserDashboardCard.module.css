@@ -1,0 +1,46 @@
+.Container {
+  width: 100%;
+}
+.cardContainer {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 0px 20px;
+  border-bottom: 2px solid #cbcbcb;
+  height: 80px;
+  font-size: 17px;
+}
+.cardContainer:hover {
+  border: 2px solid #dad1d1;
+  box-shadow: 0 0 10px #f1ebeb;
+  transition: 0.3s;
+}
+
+.text {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  line-height: 1.571429;
+  font-size: 0.875rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+}
+.nameEmail {
+  flex-direction: column;
+}
+.store {
+  align-items: center;
+  width: 50%;
+}
+.storeLogo {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+  text-align: center;
+  object-fit: cover;
+  color: transparent;
+  text-indent: 10000px;
+}

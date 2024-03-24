@@ -1,0 +1,66 @@
+body {
+    overflow-x: hidden;
+}
+
+@font-face{
+    font-family: Inter;
+    src: url(../src/assets/fonts/Inter/Inter-Regular.otf);
+}
+
+@font-face {
+    font-family: Comic Hero;
+    src: url(../src/assets/fonts/ComicHeroRegular.otf);
+}
+@font-face {
+    font-family: Gilroy Light;
+    src: url(../src/assets/fonts/GilroyLight.otf);
+}
+@font-face {
+    font-family: Interceptor Italic;
+    src: url(../src/assets/fonts/InterceptorItalic.ttf);
+}
+@font-face {
+    font-family: Knockout Regular;
+    src: url(../src/assets/fonts/KnockoutHTF50WelterweightRegular.otf);
+}
+@font-face {
+    font-family: ProximaNova Bold;
+    src: url(../src/assets/fonts/ProximaNovaBold.otf);
+}
+@font-face {
+    font-family: ProximaNova ExtraBold;
+    src: url(../src/assets/fonts/ProximaNovaExtraBold.otf);
+}
+@font-face {
+    font-family: ProximaNova Medium;
+    src: url(../src/assets/fonts/ProximaNovaMedium.otf);
+}
+@font-face {
+    font-family: ProximaNova SemiBold;
+    src: url(../src/assets/fonts/ProximaNovaSemiBold.otf);
+}
+@font-face {
+    font-family: SFPro Display Regular;
+    src: url(../src/assets/fonts/SFProDisplayRegular.OTF);
+}
+@font-face {
+    font-family: Bevan;
+    src: url(../src/assets/fonts/Bevan.ttf);
+}
+@font-face {
+    font-family: Bebas Neue;
+    src: url(../src/assets/fonts/BebasNeue-Regular.otf);
+}
+@font-face {
+    font-family: Bebas Neue Light;
+    src: url(../src/assets/fonts/BebasNeue-Light.otf);
+}
+@font-face {
+    font-family: NoirPro SemiBold;
+    src: url(../src/assets/fonts/Noir-pro/NoirPro-SemiBold.otf);
+}
+/* @font-face {
+    font-family: Noir Pro;
+    src: url(../src/assets/fonts/Noir-pro/);
+} */
+

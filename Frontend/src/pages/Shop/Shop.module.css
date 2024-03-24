@@ -1,0 +1,44 @@
+.shoppage {
+    display: flex;
+  }
+  
+.productlist {
+  width: 80%;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 10px;
+}
+  
+.topbuttons{
+  display: none;
+}
+
+@media screen and (max-width: 430px){
+  .topbuttons .Button{
+    border-radius: 0;
+    border: 1px solid black;
+    font-family: "Noir Pro";
+    text-transform: none !important;
+  }
+  
+  .topbuttons{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50vw;
+    top: 13vh;
+    z-index: 1;
+  }
+  .productlist{
+    margin-top: 17vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .listitem{
+      .container{
+        width: 10px;
+      }
+    }
+  }
+}

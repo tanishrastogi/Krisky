@@ -1,0 +1,41 @@
+.card {
+    min-width: 350px;
+    max-height: 300px;
+    margin: 10px;
+    outline: none;
+    line-height: 1.3rem;
+}
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+.card__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 8rem;
+}
+
+.card a {
+    font-family: 'Bebas Neue';
+    color: #1F242E;
+    text-decoration: none;
+}
+.card__info_entity{
+    color: #A5A6AA;
+    font-size: 10px;
+}
+.card__info_date {
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+color: #A5A6AA;
+}
+.card__paragraph {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 12rem;
+    color: #1F242E;
+}

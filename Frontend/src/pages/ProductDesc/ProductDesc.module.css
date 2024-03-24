@@ -1,0 +1,127 @@
+.product {
+    display: flex;
+    margin: 30px;
+}
+
+.action {
+    padding: 30px;
+    width: 30%;
+}
+
+.bestseller {
+    background-color: rgb(238, 238, 238);
+    padding: 5px;
+}
+
+.imagebox {
+    width: 70%;
+    height: 600px;
+    border: 1px solid #C6C8CA;
+    padding: 80px;
+}
+
+.table {
+    width: 750px;
+    height: 200px;
+    margin: 30px;
+    display: flex;
+}
+
+.SampleBrand {
+    color: #656565;
+    font-family:  ProximaNova Medium;
+    margin: 5px 0;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.SampleProduct {
+    color: #131313;
+    font-family:  ProximaNova Medium;
+    margin: 5px 0;
+    font-size: 24px;
+    font-weight: Bold;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.column {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    border-right: 1px solid #EFEFEF;
+}
+
+.size {
+    width: 100%;
+    height: 40px;
+    margin: 10px;
+}
+
+.addtocart {
+    width: 100%;
+    height: 40px;
+    margin: 10px;
+}
+
+
+.cards {
+    margin: 30px;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    width: 100%;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
+
+.description {
+    margin: 30px;
+}
+
+.productDescTitle {
+    color: #656565;
+    font-family:  ProximaNova Medium;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.productDesc {
+    margin-top: 5px;
+}
+
+.AlsoLikeSlider,
+.NewArrivalsSlider {
+    margin: 30px;
+
+}
+
+.AlsoLikeSliderTitle {
+    color: #131313;
+    font-family: ProximaNova Medium;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 32.4px;
+    padding-left: 25px;
+}
+
+.NewArrivalsSliderTitle {
+    color: #131313;
+    font-family:  ProximaNova Medium;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 32.4px;
+    padding-left: 25px;
+}

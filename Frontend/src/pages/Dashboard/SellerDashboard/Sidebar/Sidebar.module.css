@@ -1,0 +1,114 @@
+.sidebarBody {
+  width: 20%;
+}
+
+.Logo {
+  width: 90%;
+  padding: 30px 10px;
+}
+
+.sidebarsection {
+  margin-bottom: 10px;
+}
+
+.SideBarSectionsHeading {
+  box-sizing: border-box;
+  list-style: none;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-family: "Public Sans", sans-serif;
+  display: inline-flex;
+  color: rgb(145, 158, 171);
+  margin-bottom: 4px;
+  padding: 16px 8px 8px 12px;
+  transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  letter-spacing: 0.5px;
+
+}
+
+.AppIcon {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  margin-right: 16px;
+}
+
+.AppText {}
+
+.sectionButton {
+  background: white;
+  margin: 0px 0px 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border: 0;
+  text-align: left;
+  border-radius: 8px;
+  color: rgb(99, 115, 129);
+  padding: 4px 8px 4px 12px;
+  min-height: 44px;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.sectionButton:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.sectionName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.actions {
+  width: 100%;
+}
+
+.actionButton {
+  display: flex;
+  gap: 1rem;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  position: relative;
+  color: rgb(99, 115, 129);
+  padding: 16px 20px;
+  min-height: 36px;
+}
+
+.actionButton::before {
+  content: "\2022";
+  color: rgb(99, 115, 129);
+  width: 10px;
+  margin: 0 20px 0 0;
+}
+
+.actionButton:hover {
+  background-color: rgb(248, 237, 237);
+}
+
+.subButton {
+  width: 100%;
+  padding: 4px;
+  background-color: rgb(216, 216, 216);
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+}

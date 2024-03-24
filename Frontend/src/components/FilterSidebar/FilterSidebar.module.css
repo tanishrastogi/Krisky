@@ -1,0 +1,86 @@
+.filtersidebar {
+  display: flex;
+  width: 300px;
+  padding: 40px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.CurrentFiltersContainer {
+  width: 100%;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.50);
+  padding: 10px;
+}
+
+.CurrentFiltersContainerHeading {
+  color: #000;
+  font-family: Inter;
+  font-size: 13.672px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23.94px;
+  text-transform: uppercase;
+
+}
+
+.BodyTypeContainer {
+  width: 100%;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.50);
+  padding: 10px;
+}
+
+.BodyType {
+  color: #000;
+  font-family: Inter;
+  font-size: 13.453px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.buttons {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Button {
+  display: flex;
+  padding: 8px 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 2px;
+  border: 1px solid #767676;
+  color: var(--Primary-Text, #fff);
+  text-align: center;
+  font-family: "Noir Pro";
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.FilterNameContainer {
+  border-bottom: 1px solid rgba(34, 34, 34, 0.50);
+  width: 100%;
+  padding: 10px;
+}
+
+.FilterName {
+  color: #000;
+  font-family: Inter;
+  font-size: 13.453px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 430px) {
+  .filtersidebar {
+    width: 100vw;
+    padding-top: 10vh;
+  }
+}

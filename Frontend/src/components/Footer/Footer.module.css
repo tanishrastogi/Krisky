@@ -1,0 +1,129 @@
+.Footer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: url("../../assets/Footer.png");
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid var(--Primary-Text, #fff);
+}
+
+.section1,
+.section2,
+.section3 {
+  width: 33%;
+  display: flex;
+  padding: 30px 65.65px 30px 64.66px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.section1,
+.section2 {
+  border-right: 1px solid var(--Primary-Text, #fff);
+}
+
+.content {
+  font-family: Gilroy Light;
+  color: white;
+}
+
+.footerBottom {
+  display: flex;
+  align-items: flex-start;
+  gap: 123px;
+  align-self: stretch;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.section4,
+.section5,
+.section6,
+.section7 {
+  width: 25%;
+  color: var(--Primary-Text, #fff);
+}
+
+.content2 {
+  font-family: Gilroy Light;
+  font-size: 13.891px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+}
+
+.content3 {
+  color: var(--Primary-Text, #fff);
+  font-family: Gilroy Light;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  margin-top: 15px;
+}
+
+.section5,
+.section6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section5 ul li,
+.section6 ul li {
+  margin-bottom: 10px;
+  font-family: Gilroy Light;
+}
+
+.section7 {
+  font-family: Gilroy Light;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section7 img {
+  margin-top: 15px;
+}
+
+.section7icons {
+  margin-right: 40px;
+}
+
+.bottomnavbar {
+  display: none;
+}
+
+@media screen and (max-width: 430px) {
+  .Footer {
+    display: none;
+  }
+  .bottomnavbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #010101;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+    a:hover {
+      font-size: 30px;
+    }
+  }
+}

@@ -1,0 +1,134 @@
+.Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.CenterBody {
+  border: 1px solid black;
+  padding: 30px 40px;
+  width: 600px;
+  margin: 40px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logoalt {
+  display: none;
+}
+
+.content {
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  margin-top: 15px;
+  word-spacing: 2px;
+  font-family: "Noir Pro";
+}
+
+.content2 {
+  font-family: "Noir Pro";
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+.content2 a {
+  color: black;
+  word-spacing: 2px;
+  margin-left: 2px;
+  text-decoration: underline;
+}
+
+.Input {
+  margin-top: 20px;
+}
+
+.button {
+  display: flex;
+  padding: 14px 150px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  color: var(--Primary-Text, #fff);
+  text-align: center;
+  font-family: ProximaNova Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+}
+
+@media (max-width: 430px) {
+  .Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .CenterBody {
+    border: none;
+    padding: 10px 20px;
+    width: 90vw;
+    margin: 10px;
+    margin-top: 70px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+
+  .logo {
+    display: none !important;
+  }
+
+  .logoalt {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: 'Noir Pro';
+  }
+  .form, .Input{
+    width: 100%;
+  }
+  .buttondiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+  }
+  .content2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .content2 a{
+    text-align: center;
+    /* width: 100%; */
+    display: block;
+  }
+}

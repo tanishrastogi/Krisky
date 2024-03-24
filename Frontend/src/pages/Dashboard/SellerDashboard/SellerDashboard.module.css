@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding: 30px 10px;
+}
+
+.Heading {
+  display: flex;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  font-family: "Public Sans", sans-serif;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+}

@@ -1,0 +1,48 @@
+.Body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.Col1,.Col2,.Col3,.Col4{
+    display: flex;
+    flex-direction: column;
+}
+
+.Col1row2{
+    width: 100%;
+    height: 176px;
+}
+
+.Col1row5{
+    width: 100%;
+    height: 360px;
+}
+
+.Col1row1,.Col1row3,.Col1row4{
+    width: 100%;
+    height: 540px;
+    flex-shrink: 0;
+}
+
+
+.Col2row1{
+    width: 100%;
+height: 223px;
+}
+
+.Col2row2,.Col2row3,.Col2row6{
+    width: 100%;
+    height: 540px;
+    flex-shrink: 0;
+}
+
+.Col2row4{
+    height: 281px;
+}
+
+.Col2row5{
+    height: 253px;
+}

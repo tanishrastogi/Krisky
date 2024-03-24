@@ -1,0 +1,80 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  padding: 0 20px;
+  height: 140px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.cardContainer:hover {
+  border: 2px solid #dad1d1;
+  box-shadow: 0 0 10px #f1ebeb;
+  transition: 0.3s;
+}
+
+.image {
+  width: 80px;
+  height: 70px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.nameImage {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 20px;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 600;
+  color: #686868;
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.createdAt {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 35px;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.date {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.time {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #363535;
+}
+
+.stock {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 50px;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.priceDelete {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: start;
+  margin-left: 55px;
+}
+
+.Delete {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 60px;
+}

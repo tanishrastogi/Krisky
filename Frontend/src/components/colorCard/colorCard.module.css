@@ -1,0 +1,14 @@
+@media screen and (max-width: 430px) {
+ .container {
+    display: none;
+ }
+}
+.container {
+   display: flex;
+   height: 50px;
+   width: 50px;
+}
+.shoes__color {
+   object-fit: scale-down;
+   aspect-ratio: 3/2;
+ }

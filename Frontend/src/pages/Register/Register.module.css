@@ -1,0 +1,164 @@
+.Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.CenterBody {
+  border: 1px solid black;
+  padding: 30px 40px;
+  width: 600px;
+  margin: 40px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: "Knockout HTF50-Welterweight";
+}
+
+.button {
+  display: flex;
+  padding: 14px 150px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  color: var(--Primary-Text, #fff);
+  text-align: center;
+  font-family: ProximaNova Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+}
+
+.mobile {
+  display: flex;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.OTPbutton {
+  width: 30%;
+  border-radius: 2px;
+  background: #131313;
+  color: white;
+  border: none;
+  padding: 8px 36px;
+  letter-spacing: 1px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.Input {
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+}
+
+@media (max-width: 430px) {
+  .Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .loginbtn {
+    font-family: "Noir Pro";
+    font-size: 12px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: none;
+  }
+
+  .loginbtn a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 2px !important;
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+
+  .CenterBody {
+    border: none;
+    padding: 10px 20px;
+    width: 90vw;
+    margin: 10px;
+    margin-top: 70px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+
+  .logo {
+    display: none !important;
+  }
+
+  .logoalt {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: 'Noir Pro';
+  }
+  .content2 Link{
+    text-align: center;
+    width: 100%;
+  }
+  .form, .Input{
+    width: 100%;
+  }
+  .Input{
+    z-index: -1;
+  }
+  .buttondiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 70px;
+    font-family: ProximaNova Medium;
+  }
+  .OTPbutton{
+    width: 50%;
+    padding: 6px;
+  }
+}

@@ -1,0 +1,80 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.CenterBody {
+  border: 1px solid black;
+  padding: 30px 40px;
+  width: 600px;
+  margin: 40px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+
+.heading {
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: "Knockout HTF50-Welterweight";
+}
+
+.inputBox {
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+}
+
+.button {
+  display: flex;
+  padding: 14px 150px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  color: var(--Primary-Text, #fff);
+  text-align: center;
+  font-family: ProximaNova Medium;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+
+.labelMargin {
+  margin-right: 10px;
+}
+
+.selectPadding {
+  padding: 5px;
+}
+
+
+.inputBox label {
+  margin-right: 8px;
+  font-weight: 600;
+}
+
+.inputBox select {
+  padding: 4px;
+  border: 1px solid var(--Border-2, #CCC);
+  margin-top: 5px;
+}
