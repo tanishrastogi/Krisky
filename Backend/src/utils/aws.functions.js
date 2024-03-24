@@ -52,16 +52,15 @@ import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 * --------------> STEPS <------------------
 */
 
-// access_key_id = AKIAU6GDZ6JZJHXL5WGR
-// access_key_secret = 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
+
 
 const Bucket = process.env.AWS_BUCKET_NAME;
 
 const s3Client = new S3Client({
   region: "ap-south-1",
   credentials: {
-    accessKeyId: "AKIAU6GDZ6JZJHXL5WGR",
-    secretAccessKey: "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",
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_KEY_ID,
   },
 });
 
